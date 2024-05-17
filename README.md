@@ -1,17 +1,16 @@
-![GitHub contributors](https://img.shields.io/github/contributors/MrLkuch/RepoTemplate?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/MrLkuch/RepoTemplate?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/MrLkuch/RepoTemplate?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/MrLkuch/RepoTemplate?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/MrLkuch/RepoTemplate?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/MrLkuch/Katas-JS?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/MrLkuch/Katas-JS?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/MrLkuch/Katas-JS?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/MrLkuch/Katas-JS?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/MrLkuch/Katas-JS?style=for-the-badge)
 
-<h1 align="center">Project name</h1>
+<h1 align="center">Katas JS</h1>
 
 <div align="center">
 
 ## Project Description
 
-This repository is a structure to start a personal or professional project.
-This will save valuable time and maximize your working time.
+This repository contain various katas of JS algorithm.
 
 </div>
 
