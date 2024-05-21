@@ -15,3 +15,9 @@ function check(a, x) {
     console.log('faux')
     return false;
 }
+
+// other solution
+
+function check(a, x) {
+    return a.includes(x);
+};
