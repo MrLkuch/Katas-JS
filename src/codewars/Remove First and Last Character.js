@@ -14,3 +14,9 @@ function removeChar(str) {
     return str.join('');
 
 };
+
+// simpler way
+
+function removeChar(str) {
+    return str.slice(1, -1);
+}
