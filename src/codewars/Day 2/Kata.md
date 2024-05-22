@@ -240,11 +240,30 @@ function setAlarm(employed, vacation){
 }
 ```
 
-## Name :
+## Name : Sum without highest and lowest number
 
 ```js
 
+function sumArray(array) {
 
+    if (array && array.length > 2) {
+        let sum = 0;
+        let high = array[0];
+        let low = array[0];
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] > high) {
+                high = array[i];
+            }
+            if (array[i] < low) {
+                low = array[i];
+            }
+            sum += array[i];
+        }
+
+        return sum - high - low;
+    }
+    return 0;
+}
 
 ```
 
