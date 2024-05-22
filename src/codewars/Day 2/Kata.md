@@ -522,11 +522,18 @@ function monkeyCount(n) {
 
 ```
 
-## Name :
+## Name : Will there be enough space?
 
 ```js
 
-
+function enough(cap, on, wait) {
+    let res = cap - (on + wait);
+    console.log(res)
+    if (res < 0) {
+        return - res;
+    }
+    return 0;
+}
 
 ```
 
