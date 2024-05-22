@@ -595,12 +595,37 @@ function sayHello(name) {
 
 ```
 
-## Name :
+## Name : Find the first non-consecutive number
 
 ```js
 
+function firstNonConsecutive(arr) {
+    let res = null;
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i])
+        if (arr[i] + 1 != arr[i + 1] && arr[i + 1] != undefined) {
+            console.log('yes')
+            console.log(arr[i + 1])
+            res = arr[i + 1];
+            return res;
+        }
+    }
+    return res;
 
+}
 
+```
+### other solution
+
+```js
+function firstNonConsecutive(arr) {
+  for (let i = 0; i < arr.length - 1; ++i) {
+    if (arr[i] + 1 !== arr[i + 1]) {
+      return arr[i + 1]
+    }
+  }
+  return null
+}
 ```
 
 ## Name :
