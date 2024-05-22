@@ -334,11 +334,20 @@ function feast(beast, dish) {
 }
 ```
 
-## Name :
+## Name : Array plus array
 
 ```js
 
-
+function arrayPlusArray(arr1, arr2) {
+    let sum = 0
+    for (n in arr1) {
+        sum += arr1[n];
+    }
+    for (m in arr2) {
+        sum += arr2[m];
+    }
+    return sum;
+}
 
 ```
 
