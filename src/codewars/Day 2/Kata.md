@@ -219,12 +219,25 @@ function updateLight(current) {
 
 ```
 
-## Name :
+## Name : L1: Set Alarm
 
 ```js
 
+function setAlarm(employed, vacation) {
+    if (employed == true && vacation == false) {
+        return true;
+    } return false;
+}
 
+```
 
+### other solution
+
+```js
+
+function setAlarm(employed, vacation){
+  return employed && !vacation;
+}
 ```
 
 ## Name :
