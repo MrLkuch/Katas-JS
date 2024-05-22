@@ -673,11 +673,26 @@ function powersOfTwo(n) {
 
 ```
 
-## Name :
+## Name : Cat years, Dog years
 
 ```js
 
+var humanYearsCatYearsDogYears = function (humanYears) {
+    let hum = humanYears;
+    let cat = 15;
+    let dog = 15;
 
+    for (let i = 2; i <= hum; i++) {
+        if (i > 2) {
+            cat += 4;
+            dog += 5;
+        } else {
+            cat += 9;
+            dog += 9;
+        }
+    }
+    return [hum, cat, dog];
+}
 
 ```
 
