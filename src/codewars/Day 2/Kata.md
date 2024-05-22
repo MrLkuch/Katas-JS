@@ -27,6 +27,13 @@ const quarterOf = (month) => {
 
 ```
 
+### Other solution :
+
+```js 
+const quarterOf = m => Math.ceil(m/3);
+
+```
+
 ## Name :
 
 ```js
