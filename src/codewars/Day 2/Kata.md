@@ -267,6 +267,60 @@ function sumArray(array) {
 
 ```
 
+## Name : Sum Mixed Array
+
+```js
+
+function sumMix(x) {
+    let sum = 0;
+    for (number in x) {
+        sum += + x[number];
+    }
+    return sum;
+}
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
 ## Name :
 
 ```js
