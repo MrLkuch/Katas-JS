@@ -804,11 +804,25 @@ function sumStr(a, b) {
 
 ```
 
-## Name : 
+## Name : Difference of Volumes of Cuboids
 
 ```js
 
+function findDifference(a, b) {
+    let volA = 1;
+    let volB = 1;
+    for (n in a) {
+        volA *= a[n];
+    }
+    for (m in b) {
+        volB *= b[m];
+    }
+    let res = volA - volB;
+    if (res < 0) {
+        return -res;
+    } return res;
 
+}
 
 ```
 
