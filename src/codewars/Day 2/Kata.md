@@ -793,11 +793,14 @@ function expressionMatter(a, b, c) {
 
 ```
 
-## Name : 
+## Name :  Sum The Strings
 
 ```js
 
-
+function sumStr(a, b) {
+    let res = +a + +b;
+    return String(res);
+}
 
 ```
 
