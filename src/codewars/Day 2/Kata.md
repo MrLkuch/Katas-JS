@@ -451,10 +451,15 @@ let square = (n) => n**2;
 
 ```
 
-## Name :
+## Name : Keep up the hoop
 
 ```js
 
+function hoopCount(n) {
+    if (n >= 10) {
+        return 'Great, now move on to tricks';
+    } return 'Keep at it until you get it';
+}
 
 
 ```
