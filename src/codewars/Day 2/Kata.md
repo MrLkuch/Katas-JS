@@ -437,11 +437,17 @@ function switchItUp(number) {
 
 ```
 
-## Name :
+### other solution
+
+```js
+switchItUp=n=>["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"][n]
+```
+
+## Name : Function 2 - squaring an argument
 
 ```js
 
-
+let square = (n) => n**2;
 
 ```
 
