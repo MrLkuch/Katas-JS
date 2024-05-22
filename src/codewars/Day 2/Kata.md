@@ -585,11 +585,13 @@ function between(a, b) {
 
 ```
 
-## Name :
+## Name : Grasshopper - Debug sayHello
 
 ```js
 
-
+function sayHello(name) {
+  return 'Hello, ' + name;
+}
 
 ```
 
