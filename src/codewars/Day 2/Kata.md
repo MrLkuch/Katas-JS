@@ -371,6 +371,62 @@ function getAge(inputString){
 }
 ```
 
+## Name : Beginner Series #4 Cockroach
+
+```js
+
+function cockroachSpeed(s) {
+    return Math.floor(s / 360 * 10000);
+}
+
+```
+
+### other solution
+
+```js
+const cockroachSpeed = s => Math.floor(s / 0.036);
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
 ## Name :
 
 ```js
