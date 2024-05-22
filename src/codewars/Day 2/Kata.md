@@ -313,12 +313,25 @@ const doubleChar = (str) => str.split("").map(c => c + c).join("");
 
 ```
 
-## Name :
+## Name : The Feast of Many Beasts
 
 ```js
 
+function feast(beast, dish) {
+    beast.split('');
+    dish.split('');
+    if (beast[0] == dish[0] && beast[beast.length - 1] == dish[dish.length - 1]) {
+        return true;
+    } return false;
+}
 
+```
+### other solution
 
+```js
+function feast(beast, dish) {
+	return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
+}
 ```
 
 ## Name :
