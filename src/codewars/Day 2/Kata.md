@@ -628,12 +628,23 @@ function firstNonConsecutive(arr) {
 }
 ```
 
-## Name :
+## Name : Is it even?
 
 ```js
 
+function testEven(n) {
+    if(n%2){
+      return false;
+    }return true;
+}
 
+```
+### other solution
 
+```js
+function testEven(n) {
+    return n%2===0;
+}
 ```
 
 ## Name :
