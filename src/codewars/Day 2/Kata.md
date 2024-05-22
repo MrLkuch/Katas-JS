@@ -561,19 +561,27 @@ function strCount(str, letter){
 }
 ```
 
-## Name :
+## Name : Grasshopper - Terminal game move function
 
 ```js
 
-
+function move(position, roll) {
+    return position + (roll * 2);
+}
 
 ```
 
-## Name :
+## Name : What is between?
 
 ```js
 
-
+function between(a, b) {
+    let arr = [];
+    for (let i = a; i <= b; i++) {
+        arr.push(i);
+    }
+    return arr;
+}
 
 ```
 
