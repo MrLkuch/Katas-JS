@@ -826,10 +826,34 @@ function findDifference(a, b) {
 
 ```
 
-## Name : 
+## Name : I love you, a little , a lot, passionately ... not at all
 
 ```js
 
+function howMuchILoveYou(nbPetals) {
+    let counter = 0;
+    for (let i = nbPetals; i > 0; i--) {
+        counter += 1;
+        if (counter > 6) {
+            counter = 1;
+        }
+    }
+    console.log(counter);
+    switch (counter) {
+        case 1:
+            return "I love you";
+        case 2:
+            return "a little";
+        case 3:
+            return "a lot";
+        case 4:
+            return "passionately";
+        case 5:
+            return "madly";
+        case 6:
+            return "not at all";
+    }
+}
 
 
 ```
