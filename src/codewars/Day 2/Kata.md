@@ -464,12 +464,37 @@ function hoopCount(n) {
 
 ```
 
-## Name :
+## Name : Twice as old
 
 ```js
 
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+    let years = 0;
+    if (dadYearsOld == sonYearsOld * 2) {
+        return 0;
+    } else if (dadYearsOld > sonYearsOld * 2) {
+        while (dadYearsOld > sonYearsOld * 2) {
+            years++;
+            dadYearsOld--;
+        }
+    }
+    else {
+        while (dadYearsOld < sonYearsOld * 2) {
+            years++;
+            dadYearsOld++;
+        }
+    }
+    return years;
+}
 
+```
 
+### other solution
+
+```js
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs(dadYearsOld - 2 * sonYearsOld);
+}
 ```
 
 ## Name :
