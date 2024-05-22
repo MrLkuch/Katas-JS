@@ -290,11 +290,26 @@ function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
 
 ```
 
-## Name :
+## Name : Double Char
 
 ```js
 
+function doubleChar(str) {
+    let res = ''
+    for (letter in str) {
+        res += str[letter] + str[letter]
+    }
+    return res;
+}
 
+
+```
+
+### other solution
+
+``` js
+
+const doubleChar = (str) => str.split("").map(c => c + c).join("");
 
 ```
 
