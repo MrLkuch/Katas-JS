@@ -100,11 +100,29 @@ function rentalCarCost(d) {
 }
 ```
 
-## Name :
+## Name : Remove exclamation marks
 
 ```js
+function removeExclamationMarks(s) {
+    let arr = s.split('')
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == '!') {
+            arr[i] = ''
+        }
+    }
+
+    return arr.join('');
+}
 
 
+```
+
+### other solution
+
+```js
+function removeExclamationMarks(s) {
+  return s.replace(/!/gi, '');
+}
 
 ```
 
