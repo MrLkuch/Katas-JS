@@ -647,11 +647,15 @@ function testEven(n) {
 }
 ```
 
-## Name :
+## Name : Is the string uppercase?
 
 ```js
 
-
+String.prototype.isUpperCase = function () {
+    if (this == this.toUpperCase()) {
+        return true;
+    } return false;
+}
 
 ```
 
