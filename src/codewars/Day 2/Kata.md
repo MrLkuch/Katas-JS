@@ -281,11 +281,12 @@ function sumMix(x) {
 
 ```
 
-## Name :
+## Name : Grasshopper - Messi goals function
 
 ```js
-
-
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+    return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
 
 ```
 
