@@ -537,12 +537,28 @@ function enough(cap, on, wait) {
 
 ```
 
-## Name :
+## Name : All Star Code Challenge #18
 
 ```js
 
+function strCount(str, letter) {
+    let count = 0;
+    for (letters in str) {
+        if (str[letters] == letter) {
+            count += 1;
+        }
+    }
+    return count;
+}
 
+```
 
+### other solution
+
+```js
+function strCount(str, letter){  
+  return str.split(letter).length-1
+}
 ```
 
 ## Name :
