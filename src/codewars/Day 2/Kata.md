@@ -172,11 +172,13 @@ class Kata {
 
 ```
 
-## Name :
+## Name : Third Angle of a Triangle
 
 ```js
 
-
+function otherAngle(a, b) {
+  return 180 - a - b;
+}
 
 ```
 
