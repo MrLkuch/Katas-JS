@@ -696,7 +696,52 @@ var humanYearsCatYearsDogYears = function (humanYears) {
 
 ```
 
-## Name :
+## Name : altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+
+```js
+
+String.prototype.toAlternatingCase = function () {
+  let arr = this.split('');
+  for(n in arr){
+    if(arr[n] == arr[n].toUpperCase()){
+      arr[n] = arr[n].toLowerCase();
+    }else{
+      arr[n] = arr[n].toUpperCase();
+    }
+    
+  }
+  arr = arr.join('');
+  return arr;
+  
+}
+
+```
+
+## Name : Correct the mistakes of the character recognition software
+
+```js
+
+function correct(string) {
+    let arr = string.split('');
+    for (n in arr) {
+        switch (arr[n]) {
+            case '0':
+                arr[n] = 'O';
+                break;
+            case '1':
+                arr[n] = 'I';
+                break;
+            case '5':
+                arr[n] = 'S';
+                break;
+        }
+    }
+    return arr.join('');
+}
+
+```
+
+## Name : 
 
 ```js
 
@@ -704,7 +749,111 @@ var humanYearsCatYearsDogYears = function (humanYears) {
 
 ```
 
-## Name :
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
 
 ```js
 
