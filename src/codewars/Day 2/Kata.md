@@ -34,11 +34,38 @@ const quarterOf = m => Math.ceil(m/3);
 
 ```
 
-## Name :
+## Name : Grasshopper - Grade book
 
 ```js
 
+function getGrade (s1, s2, s3) {
+  let avg = (s1 + s2 + s3)/ 3;
+  if(90 <= avg && avg <= 100){
+    return 'A';
+  }else if(80 <= avg && avg < 90){
+    return 'B';
+  }else if(70 <= avg && avg < 90){
+    return 'C';
+  }else if(60 <= avg && avg < 70){
+    return 'D';
+  }else{
+    return 'F';
+  }
+}
 
+```
+
+### other solution
+
+```js
+function getGrade (s1, s2, s3) {
+  avg = (s1+s2+s3)/3;
+  if (avg < 60)  return "F";
+    else if (avg < 70) return "D";
+    else if (avg < 80) return "C";
+    else if (avg < 90) return "B";
+    else return "A";
+}
 
 ```
 
