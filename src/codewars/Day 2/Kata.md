@@ -351,12 +351,24 @@ function arrayPlusArray(arr1, arr2) {
 
 ```
 
-## Name :
+## Name : Parse nice int from char problem
 
 ```js
+function getAge(inputString) {
+    for (n in inputString) {
+        return +inputString[n];
+    }
+}
 
 
+```
 
+### simpler solution
+
+```js
+function getAge(inputString){
+  return parseInt(inputString);
+}
 ```
 
 ## Name :
