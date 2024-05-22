@@ -387,12 +387,23 @@ function cockroachSpeed(s) {
 const cockroachSpeed = s => Math.floor(s / 0.036);
 ```
 
-## Name :
+## Name : Grasshopper - Check for factor
 
 ```js
 
+function checkForFactor(base, factor) {
+    if (base % factor == 0) {
+        return true;
+    } return false;
+}
 
+```
+### other solution
 
+```js
+function checkForFactor (base, factor) {
+  return base % factor === 0;
+}
 ```
 
 ## Name :
