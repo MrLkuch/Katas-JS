@@ -131,23 +131,84 @@ function removeExclamationMarks(s) {
 ```js
 
 function points(games) {
-  console.log(games)
-  let points = 0;
-      let scores = [];
-  
-  for(let i = 0; i < games.length; i++){
+    console.log(games)
+    let points = 0;
+    let scores = [];
 
-    scores = games[i].split(':')
-    if(scores[0]>scores[1]){
-      points+=3;
-    }else if(scores[0]==scores[1]){
-      points+=1;
+    for (let i = 0; i < games.length; i++) {
+
+        scores = games[i].split(':')
+        if (scores[0] > scores[1]) {
+            points += 3;
+        } else if (scores[0] == scores[1]) {
+            points += 1;
+        }
+
     }
-
-  }
-  console.log('end')
-  return points;
+    console.log('end')
+    return points;
 }
+
+```
+
+### other solution
+```js
+
+const points=games=>games.reduce((output,current)=>{
+    return output += current[0]>current[2] ? 3 : current[0]===current[2] ? 1 : 0;
+  },0)
+
+```
+
+## Name : Volume of a Cuboid
+
+```js
+
+class Kata {
+    static getVolumeOfCuboid(length, width, height) {
+        return length * width * height;
+    }
+}
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
+
+```
+
+## Name :
+
+```js
+
+
 
 ```
 
