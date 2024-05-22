@@ -904,13 +904,18 @@ function greet(language) {
 
 ```
 
-## Name : 
+## Name :  Sort and Star
 
 ```js
 
-
+function twoSort(s) {
+    let arr = s.sort()[0].split('').join('***');
+    return arr;
+}
 
 ```
+
+
 
 ## Name : 
 
