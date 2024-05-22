@@ -69,12 +69,35 @@ function getGrade (s1, s2, s3) {
 
 ```
 
-## Name :
+## Name : Transportation on vacation
 
 ```js
+function rentalCarCost(d) {
+    let total = 0;
+    for (let i = 0; i < d; i++) {
+        total += 40;
+    }
+    if (d >= 7) {
+        total -= 50;
+        return total;
+    } else if (d >= 3) {
+        total -= 20;
+        return total;
+    } else {
+        return total;
+    }
+}
 
+```
 
+### other solution
+```js
 
+function rentalCarCost(d) {
+  if(d<3) return d * 40;
+  if(7>d && d>=3) return (d*40 -20);
+  if(d>=7) return (d*40 -50);
+}
 ```
 
 ## Name :
