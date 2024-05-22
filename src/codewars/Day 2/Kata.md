@@ -774,11 +774,22 @@ function finalGrade(exam, projects) {
 
 ```
 
-## Name : 
+## Name : Expressions Matter
 
 ```js
 
+function expressionMatter(a, b, c) {
+    let res1 = a * (b + c);
+    let res2 = a * b * c;
+    let res3 = (a + b) * c;
+    let res4 = a + b * c;
+    let res5 = a + b + c;
 
+    let arr = [res1, res2, res3, res4, res5];
+    console.log(arr)
+    console.log(Math.max(...arr))
+    return Math.max(...arr);
+}
 
 ```
 
