@@ -126,11 +126,28 @@ function removeExclamationMarks(s) {
 
 ```
 
-## Name :
+## Name : Total amount of points
 
 ```js
 
+function points(games) {
+  console.log(games)
+  let points = 0;
+      let scores = [];
+  
+  for(let i = 0; i < games.length; i++){
 
+    scores = games[i].split(':')
+    if(scores[0]>scores[1]){
+      points+=3;
+    }else if(scores[0]==scores[1]){
+      points+=1;
+    }
+
+  }
+  console.log('end')
+  return points;
+}
 
 ```
 
