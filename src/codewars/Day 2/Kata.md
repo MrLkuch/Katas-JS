@@ -741,11 +741,17 @@ function correct(string) {
 
 ```
 
-## Name : 
+## Name : Is it a palindrome?
 
 ```js
 
-
+function isPalindrome(x) {
+    let y = x.split('').reverse().join('').toLowerCase();
+    console.log(y)
+    if (x.toLowerCase() == y) {
+        return true;
+    } return false;
+}
 
 ```
 
