@@ -205,11 +205,26 @@ function findUniq(arr) {
 }
 ```
 
-## Name : 
+## Name : Highest Scoring Word
 
 ```js
 
-
+function high(x) {
+    x = x.split(' ');
+    let highScore = 0;
+    let word = '';
+    x.forEach(function (element) {
+        let count = 0;
+        for (n in element) {
+            count += element.charCodeAt(n) - 96;
+        }
+        if (count > highScore) {
+            highScore = count;
+            word = element;
+        }
+    })
+    return word;
+}
 
 ```
 
