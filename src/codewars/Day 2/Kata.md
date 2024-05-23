@@ -968,11 +968,13 @@ function peopleWithAgeDrink(old) {
 
 ```
 
-## Name : 
+## Name : Vowel remover
 
 ```js
 
-
+function shortcut(string){
+  return string.replace(/[aeiou]/g,'')
+}
 
 ```
 
