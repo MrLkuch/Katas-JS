@@ -103,10 +103,33 @@ function alphabetPosition(text) {
 
 ```
 
-## Name : 
+## Name : Unique In Order
 
 ```js
 
+var uniqueInOrder = function (iterable) {
+    let arr = [];
+    if (iterable.length != 0) {
 
+        arr = [iterable[0]]
+        for (let i = 1; i < iterable.length; i++) {
 
+            if (iterable[i] != iterable[i - 1]) {
+
+                arr.push(iterable[i]);
+            }
+
+        }
+    }
+    return arr;
+}
+
+```
+
+### other solution
+
+```js
+ar uniqueInOrder=function(iterable){
+    return [...iterable].filter((a, i) => a !== iterable[i-1])
+}
 ```
