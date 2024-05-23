@@ -248,10 +248,40 @@ function persistence(num) {
 
 ```
 
-## Name : 
+## Name : Multiples of 3 or 5
 
 ```js
 
+function solution(number) {
+    if (number > 0) {
+        let arr = [];
+        let count = 0;
+        for (let i = 1; i < number; i++) {
+            if (i % 3 == 0 || i % 5 == 0) {
+                arr.push(i)
+            }
+        }
+        for (n in arr) {
+            count += arr[n];
+        }
+        return count;
+    }
+    return 0;
+}
 
+```
 
+### other solution
+
+```js
+function solution(number){
+  var sum = 0;
+  
+  for(var i = 1;i< number; i++){
+    if(i % 3 == 0 || i % 5 == 0){
+      sum += i
+    }
+  }
+  return sum;
+}
 ```
