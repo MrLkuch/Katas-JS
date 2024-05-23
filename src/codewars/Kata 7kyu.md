@@ -34,11 +34,16 @@ function disemvowel(str) {
 }
 ```
 
-## Name : 
+## Name : Square Every Digit
 
 ```js
 
-
+function squareDigits(num) {
+    num = String(num).split('');
+    num = num.map((x) => x * x);
+    num = +num.join('');
+    return num;
+}
 
 ```
 
