@@ -228,11 +228,23 @@ function high(x) {
 
 ```
 
-## Name : 
+## Name : Persistent Bugger.
 
 ```js
 
-
+function persistence(num) {
+    num = String(num).split('');
+    let persis = 0;
+    while (num.length > 1) {
+        let count = 1;
+        for (n in num) {
+            count *= num[n];
+        }
+        persis++
+        num = String(count).split('');
+    }
+    return persis;
+}
 
 ```
 
