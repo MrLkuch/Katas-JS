@@ -1008,11 +1008,19 @@ function gooseFilter (birds) {
 };
 ```
 
-## Name : 
+## Name : What's the real floor?
 
 ```js
 
+function getRealFloor(n) {
+    if (n > 0) {
+        if (n < 13) {
+            return n - 1;
 
+        } return n - 2;
+    }
+    return n;
+}
 
 ```
 
