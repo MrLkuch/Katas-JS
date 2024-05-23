@@ -82,11 +82,24 @@ function findOdd(A) {
 const findOdd = (xs) => xs.reduce((a, b) => a ^ b);
 ```
 
-## Name : 
+## Name : Replace With Alphabet Position
 
 ```js
 
+function alphabetPosition(text) {
+    text = text.toLowerCase();
+    console.log(text)
+    let textInNum = [];
+    for (n in text) {
+        if ((text.charCodeAt(n) >= 97 && text.charCodeAt(n) < 123)) {
 
+            textInNum.push((text.charCodeAt(n) - 96).toString());
+
+
+        }
+    }
+    return textInNum.join(' ')
+}
 
 ```
 
