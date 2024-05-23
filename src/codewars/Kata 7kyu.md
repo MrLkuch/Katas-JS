@@ -17,12 +17,21 @@ function getCount(str) {
 }
 ```
 
-## Name : 
+## Name : Disemvowel Trolls
 
 ```js
 
+function disemvowel(str) {
+    return str.replace(/[aeiouAEIOU]/g, '');
+}
 
+```
 
+### other solution
+```js
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi, '');
+}
 ```
 
 ## Name : 
