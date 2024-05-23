@@ -978,12 +978,34 @@ function shortcut(string){
 
 ```
 
-## Name : 
+## Name : Filter out the geese
 
 ```js
 
+function gooseFilter(birds) {
+    var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+    for (let i = 0; i < birds.length; i++) {
+        for (let j = 0; j < geese.length; j++) {
+            if (i >= birds.length) {
 
+            }
+            if (birds[i] == geese[j]) {
+                birds.splice(i, 1);
+                i--
+            }
+        }
+    }
+    return birds;
+};
 
+```
+
+### other solution
+```js
+function gooseFilter (birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter(b => !geese.includes(b));
+};
 ```
 
 ## Name : 
