@@ -917,12 +917,39 @@ function twoSort(s) {
 
 
 
-## Name : 
+## Name : Find Multiples of a Number
 
 ```js
 
+function findMultiples(integer, limit) {
+    let multiple = integer;
+    let arr = [integer];
+    let i = 2
+    while (multiple < limit) {
+        multiple = i * integer;
+        console.log(multiple)
+        if (multiple <= limit) {
+            arr.push(multiple);
+        }
+        i++;
+    }
+    return arr;
+}
 
 
+```
+
+### simpler solution
+
+```js
+function findMultiples(int,limit){
+  let result = []
+  
+  for (let i = int; i<=limit ; i+=int)
+    result.push(i)
+    
+  return result
+}
 ```
 
 ## Name : 
