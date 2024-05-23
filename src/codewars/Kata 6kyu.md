@@ -133,3 +133,98 @@ ar uniqueInOrder=function(iterable){
     return [...iterable].filter((a, i) => a !== iterable[i-1])
 }
 ```
+
+## Name : Take a Ten Minutes Walk
+
+```js
+
+function isValidWalk(walk) {
+    console.log(walk)
+    if (walk.length == 10) {
+
+        let valid = 0
+        for (n in walk) {
+            switch (walk[n]) {
+                case 'n':
+                    valid += 1;
+                    break;
+                case 's':
+                    valid -= 1;
+                    break;
+                case 'e':
+                    valid += 2;
+                    break;
+                case 'w':
+                    valid -= 2;
+                    break;
+            }console.log(valid)
+        }
+        console.log('end')
+        console.log(valid)
+        if (valid == 0) {
+            return true;
+        }
+    } return false;
+}
+
+```
+
+## Name : Find the unique number
+
+```js
+
+function findUniq(arr) {
+    let nb1 = arr[0];
+    let countNb1 = 1;
+    let countNb2 = 1;
+    let nb2 = '';
+
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] != nb1) {
+            nb2 = arr[i];
+            countNb2 += 1;
+        } else {
+            countNb1 += 1;
+        }
+
+    }
+    if (countNb1 > 1) {
+        return nb2;
+    } return nb1;
+}
+
+
+```
+
+### other solution
+
+```js
+function findUniq(arr) {
+  arr.sort((a,b)=>a-b);
+  return arr[0]==arr[1]?arr.pop():arr[0]
+}
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
