@@ -89,12 +89,28 @@ function descendingOrder(n) {
 
 ```
 
-## Name : 
+## Name : List Filtering
 
 ```js
 
+function filter_list(l) {
+    let arr = [];
+    for (n in l) {
+        if (typeof (l[n]) === 'number') {
+            arr.push(l[n]);
+        }
+    }
+    return arr;
+}
 
+```
 
+### other solution
+
+```js
+function filter_list(l) {
+ return l.filter(v => typeof v == "number")
+}
 ```
 
 ## Name : 
