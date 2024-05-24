@@ -113,11 +113,13 @@ function filter_list(l) {
 }
 ```
 
-## Name : 
+## Name : The highest profit wins!
 
 ```js
 
-
+function minMax(arr){
+  return [Math.min(...arr),Math.max(...arr)];
+}
 
 ```
 
