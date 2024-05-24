@@ -47,12 +47,36 @@ function squareDigits(num) {
 
 ```
 
-## Name : 
+## Name : Highest and Lowest
 
 ```js
 
+function highAndLow(numbers) {
+    numbers = numbers.split(' ');
+    let arr = [numbers[0], numbers[0]];
 
+    for (n in numbers) {
 
+        if (+numbers[n] > arr[0]) {
+
+            arr[0] = +numbers[n];
+        } else if (+numbers[n] < arr[1]) {
+
+            arr[1] = + numbers[n];
+        }
+    }
+    return arr.join(' ');
+}
+
+```
+
+### simpler method
+
+```js
+function highAndLow(numbers){
+  numbers = numbers.split(' ');
+  return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
+}
 ```
 
 ## Name : 
