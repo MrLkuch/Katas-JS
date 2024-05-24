@@ -308,12 +308,49 @@ function count(string) {
 
 ```
 
-## Name : 
+## Name : Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!
 
 ```js
 
+function sumDigPow(a, b) {
+    let arr = [];
+    for (let i = a; i <= b; i++) {
+        let test = i.toString().split('');
+        for (n in test) {
+
+            test[n] = test[n] ** (+n + 1);
+
+        }
+        let sum = test.reduce((accumulator, currentValue) => {
+            return +accumulator + +currentValue
+        }, 0);
+
+        if (sum == i) {
+            arr.push(i);
+
+        }
+    }
+    return arr;
+}
 
 
+```
+
+### other solution
+
+```js
+
+function sumDigPow(a, b) {
+  var arr = [];
+  for (var i = a; i <= b; i++) {
+    var sum = 0;
+    for (var j = 0; j <= String(i).length; j++) {
+      sum += Math.pow(parseInt(String(i)[j]), j+1);  
+      if (sum == i) arr.push(i);
+    }
+  }
+  return arr;
+}
 ```
 
 ## Name : 
