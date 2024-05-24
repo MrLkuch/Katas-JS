@@ -285,3 +285,81 @@ function solution(number){
   return sum;
 }
 ```
+
+## Name : Count characters in your string
+
+```js
+
+function count(string) {
+    let obj = {}
+    string = string.split('');
+    for (n in string) {
+        console.log(obj)
+        if (string[n] in obj) {
+            console.log('yes')
+            obj[string[n]] += 1;
+        } else {
+            obj[string[n]] = 1;
+        }
+    }
+    console.log(obj)
+    return obj;
+}
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
