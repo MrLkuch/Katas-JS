@@ -123,6 +123,68 @@ function minMax(arr){
 
 ```
 
+## Name : You're a square!
+
+```js
+var isSquare = function (n) {
+    
+    if (Number.isInteger(Math.sqrt(n))) {
+        return true;
+    }
+    return false;
+}
+
+
+```
+
+### other solution
+
+```js
+var isSquare = function(n){
+  return Number.isInteger(Math.sqrt(n));
+}
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
+## Name : 
+
+```js
+
+
+
+```
+
 ## Name : 
 
 ```js
