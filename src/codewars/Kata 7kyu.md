@@ -79,11 +79,13 @@ function highAndLow(numbers){
 }
 ```
 
-## Name : 
+## Name : Descending Order
 
 ```js
 
-
+function descendingOrder(n) {
+    return +n.toString().split('').sort().reverse().join('');
+}
 
 ```
 
